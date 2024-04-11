@@ -515,7 +515,7 @@ header{
 .skillbar-bar {
 	height:7px;
 	width:0px;
-	background:#e88988;
+	background:#88a6e8;
 }
 
 .skill-bar-percent {
@@ -871,6 +871,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 
 .contact{
 	background:#f8f8f8;
+	align-items: center;
 }
 .contact .container{
 	padding-top:75px;
@@ -879,13 +880,17 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 .mapArea{
 	height:462px;
 	overflow:hidden;
-	width:100%;
+	width:60%;
 	margin:0;
 	background:#3b323c;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 .mapArea iframe{
 	width:100%;
 	height:100%;
+
 }
 #map img { max-width: none; }
 
@@ -1025,7 +1030,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	 10. Footer Style
 ------------------------------------------------------*/
 .footer{
-	background:#f8f8f8;
+	background:#88a6e8;
 }
 .footer .container{
 	padding:84px 0 0;
@@ -1040,7 +1045,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 .footer ul li{
 	display:inline-block;
 	text-align:center;
-	background:#bebabe;
+	background:#1d1d1d;
 	color:#ffffff;
 	line-height:55px;
 	margin:0 17px 14px;
@@ -1051,7 +1056,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
     border-radius: 50%;
 }
 .footer ul li:hover{
-	background:#1d1d1d ;
+	background:#bebabe ;
 }
 .footer ul li:hover	a{
 	color:#fff;
@@ -1081,10 +1086,10 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	display:inline-block;
 	width:40px;
 	height:40px;
-	border:2px solid #746c75;
+	border:2px solid #1d1d1d;
 }
 .gototop i {
-	color:#817a82;
+	color:#1d1d1d;
 	line-height:35px;
 }
 
